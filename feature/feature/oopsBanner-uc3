@@ -1,0 +1,48 @@
+public class OOPSBannerUC3 {
+
+    public static void main(String[] args) {
+
+        // Each row is built using String.join()
+        String row1 = String.join(" ",
+                "O   O",
+                " OOO ",
+                " OOO ",
+                "SSSS"
+        );
+
+        String row2 = String.join(" ",
+                "O   O",
+                "O   O",
+                "O   O",
+                "S"
+        );
+
+        String row3 = String.join(" ",
+                "O   O",
+                "O   O",
+                "O   O",
+                " SSS"
+        );
+
+        String row4 = String.join(" ",
+                "O   O",
+                "O   O",
+                "O   O",
+                "    S"
+        );
+
+        String row5 = String.join(" ",
+                " OOO ",
+                " OOO ",
+                " OOO ",
+                "SSSS"
+        );
+
+        // Printing banner
+        System.out.println(row1);
+        System.out.println(row2);
+        System.out.println(row3);
+        System.out.println(row4);
+        System.out.println(row5);
+    }
+}
